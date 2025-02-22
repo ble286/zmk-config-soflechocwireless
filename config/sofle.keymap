@@ -10,6 +10,14 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&mt {
+    tapping-term-ms = <180>;
+};
+
+&caps_word {
+    mods = <(MOD_LSFT | MOD_RSFT)>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
