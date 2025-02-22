@@ -18,6 +18,10 @@
     tapping-term-ms = <180>;
 };
 
+&caps_word {
+    continue-list = <UNDERSCORE MINUS>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -33,7 +37,7 @@
         };
         combo_down {
             timeout-ms = <30>;
-            key-positions = <43 44>; // m, -> down
+            key-positions = <45 46>; // m, -> down
             bindings = <&kp DOWN>;
         };
         combo_pg_up {
