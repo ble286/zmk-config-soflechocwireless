@@ -50,13 +50,13 @@
         };
         combo_pg_up {
             timeout-ms = <30>;
-            key-positions = <15 16>; // er -> pg up
-            bindings = <&kp PG_UP>;
+            key-positions = <15 16>; // er -> left
+            bindings = <&kp LEFT>;
         };
         combo_pg_down {
             timeout-ms = <30>;
-            key-positions = <39 40>; // cv -> pg down
-            bindings = <&kp PG_DN>;
+            key-positions = <39 40>; // cv -> right
+            bindings = <&kp RIGHT>;
         };
         combo_capsword {
             timeout-ms = <30>;
