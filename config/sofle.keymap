@@ -13,17 +13,17 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-    tapping-term-ms = <175>;
+    tapping-term-ms = <150>;
     flavor = "hold-preferred";
     quick-tap-ms = <260>;
-    require-prior-idle-ms = <110>;
+    require-prior-idle-ms = <120>;
 };
 
 &lt {
-    tapping-term-ms = <175>;
+    tapping-term-ms = <150>;
     flavor = "hold-preferred";
     quick-tap-ms = <260>;
-    require-prior-idle-ms = <110>;
+    require-prior-idle-ms = <120>;
 };
 
 &caps_word {
