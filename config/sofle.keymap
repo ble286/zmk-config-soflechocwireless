@@ -16,14 +16,14 @@
     tapping-term-ms = <200>;
     flavor = "balanced";
     quick-tap-ms = <260>;
-    require-prior-idle-ms = <110>;
+    require-prior-idle-ms = <80>;
 };
 
 &lt {
     tapping-term-ms = <200>;
     flavor = "balanced";
     quick-tap-ms = <260>;
-    require-prior-idle-ms = <110>;
+    require-prior-idle-ms = <80>;
 };
 
 &caps_word {
